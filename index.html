@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RaynoldSirait Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <h1>Ray<span>nold</span></h1>
+        <ul>
+          <li><a href="#Home">HOME</a></li>
+          <li><a href="#About">ABOUT</a></li>
+          <li><a href="#Portofolio">PORTFOLIO</a></li>
+          <li><a href="#Resume">RESUME</a></li>
+          <li><a href="#Kontak">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div id="Home">
+        <div class="detel">
+          <h1>I'm Dastin <span>Raynold</span></h1>
+          <p>UI/UX, Web Development and App Development</p>
+          <a href="CV Dastin Sirait.pdf" download class="btn btn2"
+            >Download CV</a
+          >
+        </div>
+        <div class="images">
+          <img src="Assets/ME.png" class="Me" />
+        </div>
+
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/dastinraynold/"
+            class="icon instagram"
+          ></a>
+          <a href="#" class="icon facebook"></a>
+          <a href="#" class="icon linkedin"></a>
+          <a href="#" class="icon twitter"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Assets/it'sme.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About me</h1>
+            <p>
+              Saya Dastin Raynold Sirait, lahir di Balige 16 mei 2003 dan
+              ber-alamat di Kec.Doloksanggul Kab.Humbang-Hasundutan Provinsi
+              Sumatera Utara, dan berkuliah di Institut Teknologi Del
+              Kec.Laguboti, dan menempuh pendidikan dengan prodi S1 Informatika
+              angkatan 2021
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li><span>App Development</span><br />Building App</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2019</span><br />developing the school website.</li>
+                <li>
+                  <span>2020</span><br />make a simple calculator using the free
+                  pascal app.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021</span><br />Institut Teknologi Del</li>
+                <li><span>2018</span><br />SMA Negeri 2 Lintongnihuta</li>
+                <li><span>2015</span><br />SMP Santa Lusia Doloksanggul</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------Portofolio------------>
+    <div id="Portofolio">
+      <div class="Container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Assets/PROJEK.jpg" />
+            <div class="layer">
+              <h3>IT Del Digital Library</h3>
+              <p>
+                Design website IT Del Library. Website Library IT Del di desain
+                untuk memberikan Design yang lebih elegan, menggunakan App
+                Figma.
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Assets/PROJEK 2.png" />
+            <div class="layer">
+              <h3>Design Website IT Del</h3>
+              <p>
+                Design website IT Del . Website IT Del di desain untuk
+                memberikan Design yang lebih elegan, menggunakan App Figma dan
+                code html.
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Assets/PROJEK 3.png" />
+            <div class="layer">
+              <h3>Website Login Form</h3>
+              <p>
+                Design Form Login dan sudah terkoneksi terhadap Applikasi
+                website.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a class="btn" href="#">See more </a>
+      </div>
+    </div>
+
+    <!-----------contact---------------->
+    <div id="Kontak">
+      <div class="container">
+        <div class="row">
+          <div class="coltact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>raynoldsirait7@gmail.com</p>
+            <p>082291694975</p>
+          </div>
+
+          <div class="coltact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &nbsp; Dastin Raynold Sirait</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
